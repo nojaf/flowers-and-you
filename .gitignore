@@ -1,0 +1,4 @@
+bin/
+obj/
+*.fs.js
+node_modules/
