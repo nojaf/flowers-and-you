@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Title } from './App.fs.js';
+import { Title } from "./bin/App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Title name={'world.'} />
+    <Title name="nojaf" />
   </React.StrictMode>,
   document.getElementById('root'),
 );
