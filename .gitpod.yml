@@ -2,8 +2,8 @@ image:
   file: .gitpod.Dockerfile
 vscode:
   extensions:
-    - muhammad-sammy.csharp@1.23.6:BePnSiVYh1NffvJF07AGvQ==
     - Ionide.Ionide-fsharp@5.0.0-preview02:onZnF31wzCmbSixApgEq2Q==
+    - ms-dotnettools.csharp@1.23.6:qOOlFzbLQsGAgQYbPRugSw==
 tasks:
   - init: dotnet tool restore
 ports:
