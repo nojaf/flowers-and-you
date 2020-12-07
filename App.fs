@@ -6,5 +6,5 @@ open Feliz
 [<ReactComponent>]
 let Title (props: {| name: string |}) =
     h1 [] [
-        str ($"Hello --- {props.name}")
+        str ($"Hello _ {props.name}")
     ]
