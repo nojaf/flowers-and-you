@@ -8,5 +8,7 @@ open Feliz
 let Title (props: {| name: string |}) =
     div [] [
         h2 [] [ str ($"Hello {props.name}") ]
-        button [ ] [ str "Increase" ]
+        button [ OnClick(fun _ -> Browser.Dom.window.alert ("Imagine counter sample")) ] [
+            str "Increase"
+        ]
     ]
