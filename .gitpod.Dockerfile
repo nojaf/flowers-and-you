@@ -8,4 +8,4 @@ RUN apt-get install -y nodejs
 RUN npm install -g yarn
 
 # Snowpack
-RUN npm i -g snowpack@next
+RUN npm i -g --unsafe-perm snowpack@next
